@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5947480765.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="reponsive.css">
+</head>
+<body>
+    <main>
+        <!-- HEADING -->
+        
+        <div class="heading">
+            <div id="myLinks" class="heading-links">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Hobbies">Hobbies</a>
+                <a href="#Comments">Comments</a>
+                <a href="#Contact">Contact</a>
+
+            </div>
+            <div class="menu-icon" onclick="myFunction(this), myFunction1(this)"
+             >
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+
+        <!-- HOME -->
+        <div class="home" id="Home">
+            <div class="home-content">
+                <p>Hi, I am <br> <b>Nguyen Dong Quan</b></p>
+                <br>
+                <span>---Albert Einstein 2.0---</span>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <!-- ABOUT ME -->
+            <div class="aboutme" id="About">
+                <span><b>About</b> me</span>
+
+                <div class="aboutme-swiper-container">
+                    
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <i class="fa-solid fa-school"></i>
+                            <p style="text-align: center; margin-top: 50px;">I'm studying at Hanoi-Amsterdam high school for the Gifted</p>
+                            <div class="aboutme-subtitle">
+                                <p>Know More </p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa-solid fa-calculator"></i>
+                            <p style="text-align: center; margin-top: 50px;">I'm good at Maths</p>
+                            <div class="aboutme-subtitle">
+                                <p>Know More </p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <p style="text-align: center; margin-top: 50px;">I love playing video games</p>
+                            <div class="aboutme-subtitle">
+                                <p>Know More </p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- HOBBIES -->
+            <div class="hobbies" id="Hobbies">
+                <span> My <span>Hobbies</span></span>
+                <div class="hobbies-block">
+
+                    <div class="hobbies-block-left">
+                        <span>TRAVELLING</span>
+                        <br>
+                        <a href="./travelling.html">
+                            <img src="https://danviet.mediacdn.vn/296231569849192448/2022/5/10/photo-1652198461126-1652198464005723724375.jpg" alt="" width="95%">
+                        </a>
+                        <p>I love travelling and exploring Saudi Arabia</p>
+                    </div>
+                    <div class="hobbies-block-mid">
+                        <span>BASKETBALL</span>
+                        <br>
+                        <a href="./basketball.html">
+                            <img src="./img/basketball1.png" alt="" width="95%">
+                        </a>
+                        <p>I love playing basketball</p>
+                    </div>
+                    <div class="hobbies-block-right">
+                        <span>FOOTBALL</span>
+                        <br>
+                        <a href="./football.html">
+                            <img src="./img/football1.jpeg" alt="" width="95%">
+                        </a>
+                        <p>I love playing football</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="stats" >
+                <div class="stats-left">
+                    <span>3.2k</span>
+                    <br>
+                    <p>projects</p>
+                </div>
+                <div class="stats-mid">
+                    <span>217</span>
+                    <br>
+                    <p>people</p>
+                </div>
+                <div class="stats-right">
+                    <span>18.3k</span>
+                    <br>
+                    <p>cups of coffee</p>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="feedback" id="Comments">
+                <div class="feedback-background-main">
+                </div>  
+                
+                <div class="feedback-main">
+                  <img src="./img/Screenshot 2023-08-08 at 15.04.35.png" alt="" style="border: 0px solid; border-radius: 50%; height: 150px; width: 150px;">
+                  <h3 class="feedback-main-name">MR HIEN DEP TRAI</h3>
+                  <p class="feedback-main-subtitle">Siuuuuuuuuuu</p>
+                  </div>
+      
+                  <div class="feedback-main-quote">
+                    <i class="fa-solid fa-quote-right"></i>
+                  </div>
+      
+                  <div class="feedback-page">
+                    <div class="feedback-page-now"> </div>
+                    <div class="feedback-page-next"> </div>
+                  </div>
+                </div>
+              
+            </div>
+
+            <div class="contact" id="Contact">
+                <div class="contact-container" id="contact">
+                    <div class="contact-container-left">
+                        <h3 style="font-size: 30px;" class="sendmess">Send Message Us</h3>
+                        <input type="text" class="text" placeholder="Your Name">
+                        <input type="text" class="text" placeholder="Your Email">
+                        <input type="text" class="text" placeholder="Subject">
+                        <input class="text-mess" placeholder="Message">
+                        <button class="button">Send Message</button>
+                    
+                    
+                    
+                    </div>
+                    
+                    <div class="contact-container-right">
+                        <h3 style="font-size: 30px;" class="sendmess1">Get in Touch</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum cumque vitae, debitis labore laudantium sint ratione in aspernatur praesentium modi, distinctio, possimus quaerat ut harum officiis rerum. Sed, repellendus.
+                        </p>
+    
+                          <p class="fa-solid fa-location-dot" style="width: 100%; margin-top: 20px;">   HANOI, VIETNAM</p>
+                          <p class="fa-solid fa-phone" style="width: 100%; margin-top: 20px;"> (+84) 1233-456-789</p>
+                          <p class="fa-solid fa-envelope" style="width: 100%; margin-top: 20px;"> dochet1989@gmail.com</p>
+    
+                          <div style="display: flex;">
+                            <div class="token">
+                              <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            
+                            <div class="token">
+                              <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="token">
+                              <i class="fa-brands fa-google"></i>
+                            </div>
+                            <div class="token">
+                              <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+
+        function myFunction1(y) {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "flex"){
+                x.style.display = "none";
+                // x.style.transition = 0.4ms;
+            } else {
+                x.style.display = "flex";
+            }
+        }
+
+        const mySwiper = new Swiper ('.aboutme-swiper-container', {
+            direction: 'vertical',
+            loop: true,
+
+            // navigation
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+
+        })
+    </script>
+</body>
+</html>

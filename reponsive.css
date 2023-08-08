@@ -1,0 +1,118 @@
+/* PC screen */
+@media (min-width: 1024px) {
+    .hobbies-block-mid span{
+        font-size: 35px;
+    }
+    .hobbies-block-left span{
+        font-size: 35px;
+    }
+    .hobbies-block-right span{
+        font-size: 35px;
+    }
+}
+
+/* Tablet screen */
+@media (min-width: 768px) and (max-width: 1023px){
+    .hobbies-block-mid span{
+        font-size: 20px;
+    }
+    .hobbies-block-left span{
+        font-size: 20px;
+    }
+    .hobbies-block-right span{
+        font-size: 20px;
+    }
+    .stats-right span{
+        font-size: 70px;
+    }
+    .stats-left span{
+        font-size: 70px
+    }
+    .stats-mid span{
+        font-size: 70px;
+    }
+    .heading{
+        width: 70vw;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 767px){
+    .hobbies-block-mid span{
+        font-size: 20px;
+    }
+    .hobbies-block-left span{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .hobbies-block-right span{
+        font-size: 20px;
+    }
+    .stats{
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading{
+        width: 70vw;
+    }
+    .hobbies-block{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hobbies-block-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .hobbies-block-mid{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .hobbies-block-right{
+        width: 100%;
+    }
+    .swiper-wrapper{
+        flex-direction: column;
+    }
+    .swiper-slide{
+        width: 100%;
+        margin-bottom:30px ;
+    }
+    .hobbies{
+        padding-top: 270%;
+    }
+    .home{
+        padding-top: 112px;
+        padding-bottom: 78px;
+        background-repeat: no-repeat;
+        padding-left: 35%;
+        padding-right: 0;
+        width: 100vw;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+    .home p{
+        font-size: 27px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container-left{
+        width: 110%;
+    }
+    .contact-container-right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sendmess{
+        /* text-align: justify; */
+    }
+    .heading{
+        width: 90vw;
+    }
+    .heading-links a{
+        font-size: 15px;
+    }
+}

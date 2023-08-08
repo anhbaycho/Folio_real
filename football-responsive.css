@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+@media (min-width: 1024px){
+    .header-mobile{
+        display: none;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-part-hover{
+        display: none;
+    }
+    .heading{
+        width: 100vw;
+    }
+    .ronaldo img{
+        width: 300px;
+        height: 300px;
+    }
+    .ronaldo{
+        flex-direction: column;
+        height: 480px;
+        align-items: center;
+        justify-content: center;
+    }
+    .defenition{
+        width: fit-content;
+        padding: 10px 10px;
+        margin-left: 42px;
+    }
+    .aboutfootball-container p{
+        font-size: 22px;
+    }
+    
+}
+
+@media (max-width: 767px){
+
+    .header-part-hover{
+        display: none;
+    }
+    .header-mobile{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading{
+        width: 100vw;
+    }
+    .aboutfootball-container p {
+        font-size: 10px;
+    }
+
+    .ronaldo img{
+        width: 300px;
+        height: 300px;
+    }
+    .ronaldo{
+        flex-direction: column;
+        height: 480px;
+    }
+    .button{
+        scale: 60%;
+        margin-left: -35px;
+        
+    }
+    .sendmess{
+        font-size: 25px;
+    }
+    .token{
+        width: 20px;
+        height: 20px;
+    }
+    .contact-container-left{
+        width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container-right{
+        width: 100%;
+    }
+    .defenition{
+        background-color: black;
+        color: white;
+        height: 130px;
+        width: fit-content;
+        padding: 0 10px;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -10px;
+        left: 10px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .aboutfootball img{
+        width: 65%;
+
+    }
+}

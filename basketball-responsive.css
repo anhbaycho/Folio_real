@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+@media (min-width: 1024px){
+    .header-mobile{
+        display: none;
+    }
+    .defenition-container-img img{
+        scale: 13%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-mobile{
+        display: none;
+      }
+}
+
+@media (max-width: 767px){
+    .header-part-hover{
+        display: none;
+    }   
+    .header-mobile{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        width: 100vw;
+    }
+    .title b{
+        font-size: 40px;
+    }
+    .defenition{
+        height: auto;
+        flex-direction: column;
+    }
+    .defenition-container{
+        width: 100%;
+        height: auto;
+
+    }
+    .defenition-container-img img{
+        margin-top: 20px;
+        width: 300px;
+        scale: 100%;
+    }
+    .defenition-container-img{
+        width: 100%;
+    }
+    .idol{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .idol-img img{
+        width: 300px;
+    }
+    .idol-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .button{
+        scale: 60%;
+        margin-left: -35px;
+        
+    }
+    .sendmess{
+        font-size: 25px;
+    }
+    .token{
+        width: 20px;
+        height: 20px;
+    }
+    .contact-container-left{
+        width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container-right{
+        width: 100%;
+    }
+    .defenition-container-content h1{
+        text-align: center;
+    }
+    .defenition-container-content p{
+        text-align: center;
+    }
+
+    .defenition-container{
+        padding: 30px 20px;
+    }
+    .title{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .idol-container{
+        padding: 10px 8px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .idol-container p{
+        text-align: center;
+        width: 88%;
+    }
+}

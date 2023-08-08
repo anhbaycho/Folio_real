@@ -1,0 +1,124 @@
+/* PC screen */
+@media (min-width: 1024px){
+    .header-mobile{
+        display: none;
+    }
+    .sightseeing img{
+        position: absolute;
+        right: -44px;
+        bottom: 9px;
+        scale: 90%;
+    }
+    .sightseeing p{
+        top: 119px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .header-part-hover{
+        display: none;
+    }
+    .heading{
+        width: 100vw;
+    }
+    .sightseeing img{
+        right: -22px;
+        scale: 90%;
+        position: absolute;
+        bottom: 5px;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+    .heading{
+        /* scale: 45%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:60px; */
+        /* display: none; */
+        width: 100vw;
+    }
+    .header-part-hover{
+        display: none;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        background-color: aquamarine;
+    }
+    .heading-logo{
+        margin: 0;
+    }
+    .header-mobile{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-mobile{
+        width: fit-content;
+    }
+    .title{
+        padding: 0;
+    }
+    .sightseeing p{
+        left: 0;
+        font-size: 20px;
+        width: 80vw;
+    }
+    .title-content{
+        height: fit-content;
+    }
+    .about-left h1{
+        font-size: 20px;
+        left: 5px;
+        bottom: 5px;
+    }
+    .about-right h1{
+        font-size: 20px;
+        right: 5px;
+        bottom: 5px;
+    }
+    .sightseeing img{
+        scale: 40%;
+        position: absolute;
+        right: -130px;
+        bottom: 30px;
+    }
+    .sightseeing p{
+        top: 400px;
+        width: 200px;
+    }
+    .button{
+        scale: 60%;
+        margin-left: -35px;
+        
+    }
+    .sendmess{
+        font-size: 25px;
+    }
+    .token{
+        width: 20px;
+        height: 20px;
+    }
+    .contact-container-left{
+        width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container-right{
+        width: 100%;
+    }
+    .about-left{
+        height: 500px;
+    }
+    .about-right{
+        height: 500px;
+    }
+  }
