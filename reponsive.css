@@ -115,4 +115,11 @@
     .heading-links a{
         font-size: 15px;
     }
+    .feedback-main-subtitle{
+        height: 60px;
+        padding: 0;
+        margin-bottom: 16px;
+        text-align: center;
+        width: 100%;
+    }
 }
