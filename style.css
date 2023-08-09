@@ -4,6 +4,17 @@
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
+
+.home-background-main{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: pink;
+  opacity: 0.45;
+}
+
 .heading{
     display: flex;
     justify-content: flex-end;
@@ -81,7 +92,6 @@
     padding-top: 200px;
     padding-bottom: 180px;
     background-repeat: no-repeat;
-    padding-left: 45% ;
     padding-right: 5%;
     width: 100vw;
     display: flex;
@@ -89,12 +99,18 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
-}
-.home-content{
+    height: 500px;
+  }
+  .home-content{
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 100;
+}
+
+.home-content b{
+    font-weight: 600;
 }
 
 
@@ -114,7 +130,7 @@
 .container{
     background-color: #ccc;
     padding: 30px 30px;
-    padding-top: 650px;
+    /* padding-top: 650px; */
     position: relative;
     height: fit-content;
 
@@ -146,9 +162,9 @@
     background-color: white;
     width: 90%;
     left: 5%;
-    top: -50px;
+    top: -85px;
     padding: 40px 30px;
-    position: absolute;
+    position: relative;
     box-shadow: 5px 10px  5px lightcoral;
 }
 
@@ -232,7 +248,7 @@
 
 .hobbies-block-left{
     background-color: #ffbe61;
-    width: 30%;
+    width: 35%;
     margin-right: 30px;
     padding: 32px 20px;
     color: white;
@@ -240,7 +256,7 @@
 
 .hobbies-block-mid{
     background-color: #37a7ff;
-    width: 30%;
+    width: 35%;
     margin-right: 30px;
     padding: 32px 20px;
     color: white;
@@ -248,8 +264,7 @@
 
 .hobbies-block-right{
     background-color: #ff2a75;
-    width: 30%;
-    margin-right: 30px;
+    width: 35%;
     padding: 32px 20px;
     color: white;
 }
@@ -498,4 +513,5 @@
     text-decoration: none;
     color: black;
   }
+
 
